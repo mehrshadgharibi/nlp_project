@@ -54,14 +54,15 @@ summary-maker/
 ├── main.py                  # Entry point for running the summarizer
 ├── summarizer/
 │   ├── __init__.py
-│   ├── chunker.py           # Handles slicing of long documents
-│   ├── summarizer.py        # Core summarization logic
-│   ├── style_adapter.py     # Adapts summary to match reference style
-│   └── utils.py             # Utility functions (e.g., token counting)
+│   ├── main.py           # runs the whole logic
+│   ├── summary_creator.py        # Core summarization logic
+│   ├── textcleaning.py     # cleans data
+│   └── utils.py             # Utility functions 
 ├── data/
 │   ├── content_text.txt     # Input text to be summarized
 │   ├── style.txt            # Reference style text
 │   └── styled_summary.txt   # Output summary
+│   └── query.txt   # Output query
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```
