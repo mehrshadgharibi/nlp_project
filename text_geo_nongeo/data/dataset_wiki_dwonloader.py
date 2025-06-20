@@ -6,7 +6,7 @@ import time
 from requests.exceptions import ReadTimeout, ConnectionError
 
 # Configuration
-USER_AGENT = "Kiimia_NLP/1.0 (https://github.com/kimiya-git/Kiimia_NLP.git; ghassemzadehkimia@gmail.com)"
+USER_AGENT = 'mehrshadgharibi/nlp_project/1.0 (https://github.com/mehrshadgharibi/nlp_project.git; mehrshadgharibi5@gmail.com)'
 MAX_RETRIES = 3
 RETRY_DELAY = 10
 REQUEST_DELAY = 1
